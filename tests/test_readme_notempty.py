@@ -8,7 +8,7 @@ class readmeTestCase(unittest.TestCase):
     def test_notempty(self):
         """Test case A. readme_notempty"""
         f = open('readme.md', 'r')
-	self.assertNotEqual(f.read(), '')
+        self.assertNotEqual(f.read(), '')
 
 if __name__ == '__main__':
     unittest.main()  # run all tests
