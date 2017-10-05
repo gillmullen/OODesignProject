@@ -1,5 +1,6 @@
 # Design project for module CA314
 
 
-# Contributers
+# Contributors
 Tom Doyle
+Ciara Godwin
