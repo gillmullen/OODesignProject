@@ -15,7 +15,7 @@ jobs:
       # documented at https://circleci.com/docs/2.0/circleci-images/
       # - image: circleci/postgres:9.4
 
-    working_directory: ~/repo
+    working_directory: ~/OODesignProject
 
     steps:
       - checkout
@@ -44,7 +44,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python manage.py test
+            python -m unittest discover -v
 
       - store_artifacts:
           path: test-reports
