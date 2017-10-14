@@ -16,4 +16,3 @@
 |                           | 4        | Player Two's win counter is increased by the server   |
 | **Extensions**            | **Step** | **Branching Action**                                  |
 |                           | 4a       |                                                       |
-|
