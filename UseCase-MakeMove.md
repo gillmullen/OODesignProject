@@ -13,8 +13,7 @@
 | 1        | Other player finished their turn                         |
 | 2        | Player places a piece on the board                       |
 | 3        | System validates the move                                |
-| 4        | System removes any of the other player's pieces that are 
-             surrounded by this player's pieces                       |
+| 4        | System removes any of the other player's pieces that are surrounded by this player's pieces|
 | 5        |Players turn has ended                                    |
 **EXTENSIONS**
 | **Step** | **Branching Action**                                     |
