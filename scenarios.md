@@ -18,8 +18,19 @@
 
 - **User John makes a move**
   - **Current System State:**
+    Julie places a black piece on the board and now its John's turn
   - **Informal Scenario:**
+    John places a white piece on the board. If white pieces surround any black pieces then those black pieces are removed from the board and John keeps them.
   - **Next Scenario:**
+    User Julie makes a move or User wins the game
+    
+- **User Julie makes a move**
+  - **Current System State:**
+    John places a white piece on the board and now its Julie's turn
+  - **Informal Scenario:**
+    Julie places a black piece on the board. If black pieces surround any white pieces then those white pieces are removed from the board and Julie keeps them.
+  - **Next Scenario:**
+    User John makes a move
 
 - **5 minutes have passed and John has not maked a move**
   - **Current System State:**
