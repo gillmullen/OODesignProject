@@ -9,21 +9,19 @@
 | Secondary Actors        | Playing piece. Board.                                      |
 | Trigger                 | Other player finished their turn                           |
 **DESCRIPTION**
-| Step    | Action              |
-| --------|:-------------------:|
-| 1       ||
-| 2       ||
-| 3       ||
-| 4       ||
-| 5       ||
+| **Step** | **Action**                                               |
+| 1        | Other player finished their turn                         |
+| 2        | Player places a piece on the board                       |
+| 3        | System validates the move                                |
+| 4        | System removes any of the other player's pieces that are 
+             surrounded by this player's pieces                       |
+| 5        |Players turn has ended                                    |
 **EXTENSIONS**
-| Step    | Branching Action    |
-| --------|:-------------------:|
-| 2a      ||
-| 2b      ||
-| 3a      ||
+| **Step** | **Branching Action**                                     |
+| 2a       | 5 minutes has passed without player making a move        |
+| 2b       | Player passes their turn                                 |
+| 3a       |Player doesn’t make valid move                            |
 **VARIATIONS**
-| Step    | Branching Action    |
-| --------|:-------------------:|
-|  1      ||
+| **Step** | **Branching Action**                                     |
+|  1       | The other player could be the computer or another person |
 
