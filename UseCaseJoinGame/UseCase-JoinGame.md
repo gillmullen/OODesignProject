@@ -1,6 +1,6 @@
 # Player joins a game
 
-| **Use Case 1**                | Player joins a game                         |
+| **Use Case 1**                || Player joins a game                         |
 |:-----------------------------:|:-:|:-----------------------------------------:|
 | **Goal in Context**           || Player starts a game with an opponent player |
 | **Scope & Level**             || System, Core                                 |
@@ -17,10 +17,10 @@
 || 5 | Server prompts black piece player to make first move |
 || 6 | Game starts with black piece player making a move    |
 | **EXTENSIONS**                | **Step** | **Branching Action**                           |
-| 2a | Server is unable to find appropiate opponent. Alerts Player to change settings       |
-| 6a | Black piece player doesn't make a move within 5 minutes                              |
+|| 2a | Server is unable to find appropiate opponent. Alerts Player to change settings       |
+|| 6a | Black piece player doesn't make a move within 5 minutes                              |
 |**VARIATIONS**                 | **Step** | **Branching Action**                           | 
-| 1 | Player could select a "random" option which chooses their board/piece colour for them |
-| 2 | The opponent player could be computer or person                                       |
+|| 1 | Player could select a "random" option which chooses their board/piece colour for them |
+|| 2 | The opponent player could be computer or person                                       |
 
 
