@@ -64,6 +64,14 @@
   - **Next Scenario:**
     Both users have been removed from the game. John’s win counter has increased by 1.
 
+- **User loses the game:**
+  - **Current System State:**
+    There are two players in the game. User John has just passed his turn as there are no valid moves he can make. It is now User Julie’s turn.
+  - **Informal Scenario:**
+    User Julie has no valid moves that she can make, therefore she passes her turn. Scores are calculated and User Julie loses, as she has less points than User John.
+  - **Next Scenario:**
+    Both users have been removed from the game. User Julie’s loss counter has increased by 1.
+
 - **User plays suicide move**
   - **Current System State:**
     There are two players in the game. User Julie has a square surrouned. It is user John's go.
