@@ -1,4 +1,20 @@
-## Scenarios
+﻿## Scenarios
+
+- **User John logs on**
+  - **Current System State:**
+    Server is waiting for user John to input his details.
+  - **Informal Scenario:**
+    User John enters his username and password. The server prompts John to choose his game settings such as the board size (9x9, 13x13 or 19x19) and his piece (black or white).
+  - **Next Scenario:**
+    User John initiates a game.
+   
+- **User John initiates a game**
+  - **Current System State:**
+    User John has logged on and must choose his game settings.
+  - **Informal Scenario:**
+    John chooses the 19x19 board size and the black piece. He then waits for the server to connect him with an appropriate player. 
+  - **Next Scenario:**
+    Server matches two users together.
 
 - **Server matches two users together**
   - **Current System State:**
@@ -12,23 +28,23 @@
   - **Current System State:**
     There are two players in the game. User Julie and user John selected a game of size 19x19.
   - **Informal Scenario:**
-    The server generates a board of size 19x19 and prompts the white user, John to go first.
+    The server generates a board of size 19x19 and prompts the black user, John to go first.
   - **Next Scenario:**
     User John makes a move
 
 - **User John makes a move**
   - **Current System State:**
-    Julie places a black piece on the board and now its John's turn
+    Julie places a white piece on the board and now its John's turn
   - **Informal Scenario:**
-    John places a white piece on the board. If white pieces surround any black pieces then those black pieces are removed from the board and John keeps them.
+    John places a black piece on the board. If black pieces surround any white pieces then those white pieces are removed from the board and John keeps them.
   - **Next Scenario:**
     User Julie makes a move or User wins the game
     
 - **User Julie makes a move**
   - **Current System State:**
-    John places a white piece on the board and now its Julie's turn
+    John places a black piece on the board and now its Julie's turn
   - **Informal Scenario:**
-    Julie places a black piece on the board. If black pieces surround any white pieces then those white pieces are removed from the board and Julie keeps them.
+    Julie places a white piece on the board. If white pieces surround any black pieces then those black pieces are removed from the board and Julie keeps them.
   - **Next Scenario:**
     User John makes a move
 
