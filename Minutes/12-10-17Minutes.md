@@ -6,8 +6,8 @@
 
 
 ## Agenda Items:
-* Primary class list- couldn’t come up with more.
-* Minutes - format before submitting. Dates and members present.
+* Primary class list- Couldn’t come up with more.
+* Minutes - Format before submitting. Dates and members present.
 * Class diagrams, use cases and structured walkthrough need to be done.
 * Submission 1 is next Friday
 * Refined Requirements Spec seems to be a lot of work. 1 page and a half should be fine.
@@ -17,7 +17,7 @@
 
 ## Decisions:
 * Documentation in Markdown -> easy to convert to PDF. Good practice for 3rd year project.
-* More scenarios?- Branch out scenarios, Log on -> initiates game against player or AI, Take into account errors.
+* More scenarios?- Branch out scenarios, Log on -> initiates game against player or AI, take into account errors.
 * Choosing a username each time would be easier than making an account
 * Use case has template. About 5 diagrams to match.
 * Going with UMLet? Runs off Java. Violet seems better to use, without having code to base it off.
@@ -25,8 +25,8 @@
 
 
 ## Actions:
-* **Everyone**: fork the git repo and add name to contributors in readme, make pull request
-* **Ciara** - combine scenarios in github once everyone has uploaded theirs, and Structured walkthrough
+* **Everyone**: Fork the git repo and add name to contributors in readme, make pull request
+* **Ciara** - Combine scenarios in github once everyone has uploaded theirs, and structured walkthrough
 * **Everyone**- Use Cases & Diagrams
 * **Tom**- Class diagram, use Violet as agreed
 * **Gillian**- Minutes, tidy up and create dir on github
