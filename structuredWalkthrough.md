@@ -1,7 +1,6 @@
 # Structured walkthrough
 ## Server
 - Server finds and connects two opponents to a game.
-- Server chooses at random which colour each opponent receives. 
 - Server indicates to the user with black disks that it's their turn.
 - Server sets a timer at the start of each users turn.
 - Each time a user makes a move the server validates it.
