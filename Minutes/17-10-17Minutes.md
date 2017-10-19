@@ -15,7 +15,7 @@
 
 
 ## Actions:
-* Gillian: upload requirements to git
-* Deadline: try to have everything uploaded by Thursday
+* Gillian: Upload requirements to git
+* Deadline: Try to have everything uploaded by Thursday
 * Everyone: Make sure everything is on github by Thursday
 
