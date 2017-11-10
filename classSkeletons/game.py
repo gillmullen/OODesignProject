@@ -29,7 +29,7 @@ class Game:
 		'''
 		pass
 
-	def make_move(self, user, move):
+	def place_stone(self, user, move):
 		'''Makes players move
 		   user: User making move (User)
 		   move: Players chosen move ((int, int))

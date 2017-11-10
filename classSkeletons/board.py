@@ -14,7 +14,7 @@ class Board:
 		'''
 		pass
 
-	def make_move(self, piece, move):
+	def place_stone(self, piece, move):
 		'''Makes users move
 		   piece: Piece being moved on board (str)
 		   move: Move user is making ((int, int))
