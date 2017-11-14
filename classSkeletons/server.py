@@ -38,7 +38,7 @@ class Server:
 		'''
 		pass
 
-	def check_wait_list(self):
+	def pair_waiting_players(self):
 		'''Checks wait list. If there's more than one user in
 		   the wait list generate a game
 		   return None

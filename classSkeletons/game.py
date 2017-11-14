@@ -10,17 +10,19 @@ class Game:
 
 	def determine_whose_move(self):
 		'''Determines whose move is next
-		   return None
+		   Returns True if it's user1's move otherwise False
+		   return bool 
 		'''
 		pass
 
-	def check_game_state(self):
+	def check_game_finished(self):
 		'''Checks if game has ended
-		   return None
+		   Returns True if game has ended
+		   return bool
 		'''
 		pass
 
-	def user_play(self, user, command):
+	def user_action(self, user, command):
 		'''Determines which play the user wants to make
 		   eg. Forfeit game, make move, pass turn
 		   user: User making command (User)
