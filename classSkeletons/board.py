@@ -35,6 +35,13 @@ class Board:
 		   return score (float)
 		'''
 		pass
+        
+        def remove_stone(self, position):
+                '''Removes stone from the board 
+                   Position: Position on the board to remove piece from ((int, int))
+                   return none 
+                '''
+                pass
 
 	def __str__(self):
 		'''return str representation of board'''
