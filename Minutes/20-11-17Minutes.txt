@@ -1,0 +1,19 @@
+﻿Secretary: Gillian Mullen
+Attendees: Gillian Mullen, Sarah Curran, Yvonne Murphy, Tom Doyle, Ciara Godwin
+Absent: N/A
+
+
+Agenda Items:
+Coding deliverables next
+Need to split up coding work
+No screenshots needed because game is played on terminal
+Minutes as usual
+
+
+Decisions:
+Use Breadth-First Search for capturing mechanic and calculating score in game logic
+
+
+Actions:
+Ciara, Sarah, Gillian - Game logic coding
+Tom, Yvonne - Server coding

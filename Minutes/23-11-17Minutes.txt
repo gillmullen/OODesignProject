@@ -1,0 +1,14 @@
+﻿Secretary: Gillian Mullen
+Attendees: Gillian Mullen, Sarah Curran, Yvonne Murphy, Tom Doyle, Ciara Godwin
+Absent: N/A
+
+
+Agenda Items:
+Deadline Sunday
+Work mostly done, can be considered provisional code at this stage
+If uploaded we would be fine, but would like more work done so there is less to do for final implementation
+
+
+Actions:
+Everyone - add final touches before uploading
+Gillian - Add minutes to gitlab
